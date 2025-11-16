@@ -1,0 +1,29 @@
+.apc-usage-info {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-left: 4px solid #0073aa;
+}
+
+.apc-usage-info h2 {
+    color: #0073aa;
+    margin-top: 0;
+}
+
+.apc-usage-info h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.apc-usage-info code {
+    background: #f1f1f1;
+    padding: 10px;
+    display: block;
+    margin: 10px 0;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+.wrap h1 {
+    color: #0073aa;
+}
