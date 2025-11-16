@@ -2,18 +2,18 @@
     "name": "Otomatik Kategori Gösterim",
     "slug": "otomatik-kategori-gosterim",
     "plugin_name": "Otomatik Kategori Gösterim",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "author": "Magazac",
     "author_profile": "https://magazac.com",
     "homepage": "https://github.com/magazac/otomatik-kategori-gosterim",
-    "download_link": "https://github.com/magazac/otomatik-kategori-gosterim/releases/download/v1.2.0/otomatik-kategori-gosterim.zip",
+    "download_link": "https://github.com/magazac/otomatik-kategori-gosterim/releases/download/v1.2.1/otomatik-kategori-gosterim.zip",
     "requires": "5.8",
     "tested": "6.4",
     "requires_php": "7.4",
-    "last_updated": "2024-01-15 10:00:00",
+    "last_updated": "2024-01-16 10:00:00",
     "sections": {
         "description": "WooCommerce kategorilerini otomatik olarak footer ve diğer alanlarda gösterir. Kategoriler rastgele veya belirli bir sırayla listelenebilir.",
         "installation": "1. Eklentiyi yükleyin ve aktif edin\n2. Ayarlar → Otomatik Kategoriler'den ayarları yapılandırın\n3. Footer'a [auto_categories] kısa kodunu ekleyin",
-        "changelog": "<h4>1.2.0</h4><ul><li>GitHub otomatik güncelleme eklendi</li><li>Rastgele sıralama özelliği</li><li>Responsive tasarım iyileştirmeleri</li></ul>"
+        "changelog": "<h4>1.2.1</h4><ul><li>Test güncellemesi - GitHub otomatik güncelleme testi</li><li>Performans iyileştirmeleri</li><li>Küçük hata düzeltmeleri</li></ul><h4>1.2.0</h4><ul><li>GitHub otomatik güncelleme eklendi</li><li>Rastgele sıralama özelliği</li><li>Responsive tasarım iyileştirmeleri</li></ul>"
     }
 }
