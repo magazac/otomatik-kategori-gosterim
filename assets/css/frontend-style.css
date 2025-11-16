@@ -1,0 +1,171 @@
+/* AUTO PRODUCT CATEGORIES - MAĞAZA STILI - HİZALI */
+.apc-categories-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    text-align: left !important;
+    float: none !important;
+    clear: both !important;
+    display: block !important;
+}
+
+.apc-categories-title {
+    display: none !important;
+}
+
+/* MAĞAZA MENÜSÜ İLE TAM AYNI STIL */
+.apc-categories-list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left !important;
+    float: none !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+.apc-category-item {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    line-height: 1.5 !important; /* SATIR ARASI 2 KATINA ÇIKARILDI */
+    min-height: auto !important;
+}
+
+.apc-category-link {
+    color: #555 !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+    display: block !important;
+    padding: 6px 0 !important; /* SATIR ARASI 2 KATINA ÇIKARILDI */
+    text-align: left !important;
+    float: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important; /* SATIR ARASI 2 KATINA ÇIKARILDI */
+    min-height: auto !important;
+}
+
+.apc-category-link:hover {
+    color: #007cba !important;
+}
+
+/* FOOTER İÇİN ÖZEL AYARLAR - MAĞAZA İLE TAM AYNI HİZADA */
+footer .apc-categories-wrapper {
+    display: block !important;
+    text-align: left !important;
+    vertical-align: top !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    width: auto !important;
+}
+
+footer .apc-categories-list {
+    display: block !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+footer .apc-category-item {
+    display: block !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+footer .apc-category-link {
+    display: block !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    padding: 5px 0 !important; /* BİLGİLENDİRME İLE AYNI */
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+/* MAĞAZA BAŞLIĞI İLE AYNI HİZAYA GETİR */
+.footer-widgets .widget:first-child .apc-categories-wrapper,
+.footer-widgets .widget:nth-child(1) .apc-categories-wrapper {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+}
+
+/* BİLGİLENDİRME MENÜSÜ İLE TAM AYNI BOYUTLAR */
+.widget .apc-categories-wrapper {
+    display: block !important;
+    width: 100% !important;
+}
+
+.widget .apc-categories-list {
+    display: block !important;
+    width: 100% !important;
+}
+
+.widget .apc-category-item {
+    display: block !important;
+    width: 100% !important;
+}
+
+.widget .apc-category-link {
+    display: block !important;
+    width: 100% !important;
+    padding: 6px 0 !important; /* BİLGİLENDİRME İLE AYNI PADDING */
+}
+
+/* TABLO BENZERİ DÜZEN İÇİN */
+.footer-widgets .widget {
+    display: inline-block !important;
+    vertical-align: top !important;
+    width: auto !important;
+    min-width: 200px !important;
+    margin-right: 40px !important;
+    margin-bottom: 0 !important;
+}
+
+.footer-widgets .widget .apc-categories-wrapper {
+    width: 100% !important;
+}
+
+/* MOBILE UYUMLULUK */
+@media (max-width: 768px) {
+    .apc-category-link {
+        padding: 6px 0 !important;
+        font-size: 14px !important;
+    }
+    
+    footer .apc-categories-wrapper {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .footer-widgets .widget {
+        display: block !important;
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+/* GRID VE DROPDOWN'U GİZLE */
+.apc-categories-grid,
+.apc-categories-dropdown {
+    display: none !important;
+}
+
+/* GÜÇLÜ CSS OVERRIDE */
+body footer .widget:first-child ul.apc-categories-list,
+body footer .widget:first-child ul.apc-categories-list li,
+body footer .widget:first-child ul.apc-categories-list li a {
+    text-align: left !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+}
